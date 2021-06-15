@@ -5,101 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    table, th , td{
-        border: 1px solid black;
-        border-collapse: collapse;
-    }
-    th, td{
-        padding: 8px;
-    }
-    th{
-        text-align: left;
-    }
-</style>
 <body>
-    <h1>Hello!</h1>
-    <p><i>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum, dicta!</i></p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, iste!</p>
-    <img src="images/pexels-yaroslav-shuraev-1553958.jpg" alt="" width="20%" height="40%"><br>
-    <a target="_blank" href="https://www.amazon.in/"><img src="images/iconmonstr-payment-29.svg" ></a>
-
-    <h2>Login</h2>
-
-     <form >
-        <label for="user">Username</label><br>
-        <input type="text" id="user" placeholder="Enter your Username"><br>
-        <label for="email">Email</label><br>
-        <input name="email" type="text" id="email" placeholder="Enter your email id"><br>
-        <textarea name="description" id="description" cols="30" rows="10"></textarea>
-        <button type="submit">Submit</button>
-    </form>
-
-    <h3>Lists</h3>
-    <ul style="list-style-type: upper-roman;">
-        <li>Book</li>
-        <li>Phone</li>
-        <li>Laptop</li>
-        <li>Mouse</li>
-
+    <header>
+    <a href="#" class="logo">Maldives.</a>
+    <ul class="navigation">
+        <li><a href="Home">Home</a></li>
+        <li><a href="About">About</a></li>
+        <li><a href="Services">Services</a></li>
+        <li><a href="Contact">Contact</a></li>
     </ul>
-    <table style="width: 50%;">
-        <caption>Students</caption>
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Age</th>
-        </tr>
-        <tr>
-            <td>John</td>
-            <td>Mathew</td>
-            <td>23</td>
-        </tr>
-        <tr>
-            <td>Brain</td>
-            <td>Johnson</td>
-            <td>23</td>
-        </tr>
-    </table><br><br>
-    <div>
-        <h3>login</h3>
-    <form action="contact.html" novalidate target="_blank">
-        <label for="fname">Firstname:</label><br>
-        <input type="text" id="fname" name="fname"><br>
-        <label for="email">Email:</label><br>
-        <input type="text" id="email" name="email"><br>
-        <label for="gender">Gender:</label><br>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="male">Female</label><br>
-        <label for="Dateofbirth">Dateofbirth:</label><br>
-        <input type="datetime-local" id="dateofbirth" name="dateofbirth"><br>
-        <input type="submit">
-    </form>
-</div><hr>
-    <form action="">
-        <label for="cars">Choose a car:</label>
-         <select name="cars" id="cars" size="4" multiple>
-            <option value="fiat">fiat</option>
-            <option value="kia">kia</option>
-            <option value="audi">audi</option>
-            <option value="bmw">bmw</option>
-        </select><br><br>
-        <input type="submit">
-    </form><br><br>
+        
+</header>
+      <section class="banner">
+    <div class="content">
+        <h2>Maldives </h2>
+        <h3>Discover sunny side of <span> life at the blue beaches</span></h3>
+    </div>
+      </section>
+      <a href="#" class="btn">Explore</a>
+ 
+    
   
-    <button type="button" onclick="alert('Hello  ')" >click me</button><br><br>
-    <form action="">
-        <input type="checkbox" id="vechicle1" name="vehicle1" value="bike">
-        <label for="vehicle1">I have a bike</label><br>
-        <input type="checkbox" id="vechicle2" name="vehicle2" value="car">
-        <label for="vehicle2">I have a car</label><br>
-        <input type="checkbox" id="vechicle3" name="vehicle3" value="boat">
-        <label for="vehicle3">I have a boat</label>
-    </form>
-    <p></p>
-    <blockquote>“Live as if you were to die tomorrow. Learn as if you were to live forever.”</blockquote>
 </body>
 </html>

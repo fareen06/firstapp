@@ -1,0 +1,67 @@
+body {
+  background: url(images/pexels-asad-photo-maldives-3601425.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+}
+.logo {
+  color: rgb(117, 117, 184);
+}
+header .navigation {
+  position: relative;
+  display: flex;
+}
+header .navigation li {
+  list-style: none;
+  margin-left: 30px;
+}
+header a {
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+header .navigation li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 300;
+}
+
+.banner .content {
+  text-align: center;
+  margin-top: 8%;
+  max-width: 1000px;
+}
+.banner .content h2 {
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+  font-weight: 300;
+  font-family: serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.banner .content h3 {
+  font-size: 1.2em;
+  color: white;
+  text-transform: uppercase;
+}
+span {
+  color: rgb(117, 117, 184);
+}
+.btn {
+  font-size: 1em;
+  color: black;
+  background: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 16px;
+  margin-left: 400px;
+}
+.btn:hover {
+  letter-spacing: 4px;
+  color: rgb(23, 23, 214);
+}
