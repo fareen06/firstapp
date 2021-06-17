@@ -10,6 +10,8 @@ body {
 header .navigation {
   position: relative;
   display: flex;
+  margin-left: 60%;
+  margin-top: 20%;
 }
 header .navigation li {
   list-style: none;
@@ -31,6 +33,7 @@ header .navigation li a {
   text-align: center;
   margin-top: 8%;
   max-width: 1000px;
+  margin-left: 10%;
 }
 .banner .content h2 {
   font-size: 2em;
@@ -59,7 +62,7 @@ span {
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 16px;
-  margin-left: 400px;
+  margin-left: 40%;
 }
 .btn:hover {
   letter-spacing: 4px;
